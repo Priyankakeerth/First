@@ -1,0 +1,87 @@
+body
+{
+margin:0;
+padding:0;
+background:url(bg.jpg);
+background-size:cover;
+background-position:center;
+font-family: sans-serif;
+color:white;
+padding:70px 30px;
+
+}
+.image
+{
+width:70px;
+height:70px;
+border-radius:70%;
+position:absolute;
+top: -35px;
+left: calc(35%- 35px);
+margin-left:35%;
+
+
+}
+h1
+{
+margin:20px;
+padding:0 0 5px;
+text-align:center;
+font-size:22px;
+
+}
+
+.loginbox
+{
+width:350px;
+height:400px;
+background:#ed3d41;
+
+position:absolute;
+box-sizing:border-box;
+top:20%;
+left:40%;
+padding: 15px;
+border-radius:30px;
+}
+.loginbox p
+{
+font-weight:bold;
+line-height:17px;
+
+}
+.loginbox input
+{
+margin-bottom:20px;
+width:90%;
+
+
+}
+.loginbox input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+height:24px;
+color:#fff;
+font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+border:none;
+height:40px;
+background:#af5b67;
+color:#fff;
+font-size:16px;
+border-radius:20px;
+
+}
+
+.loginbox a
+{
+font-size:12px;
+line-height:20px;
+color:violet;
+
+}
+
